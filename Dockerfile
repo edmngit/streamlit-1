@@ -11,6 +11,13 @@ RUN pip install -r requirements.txt
 # Copy app code and set working directory
 #COPY text_explorer text_explorer
 COPY stream.py stream.py
+COPY stream_p1_quebra_texto.py  stream_p1_quebra_texto.py
+
+COPY stream_p2_extrai.py stream_p2_extrai.py
+
+COPY stream_p3_gera_json.py stream_p3_gera_json.py
+
+
 #COPY references references
 WORKDIR .
 
